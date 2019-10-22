@@ -87,14 +87,25 @@ listona.append(a)
 listona.append(b)
 listona.append(c)
 print(listona)
-print('{}lista'.format(len(listona)))
+print('{}lista\n'.format(len(listona)))
 
 
-print('LISTA COM FOR !!!')
+print('LISTA COM FOR !!!\n')
 for i in range (0,len(listona)):
     for j in range (0,len(listona[i])):
         print(listona[i][j])
 
+'''
+insert():(indice,elemento)
+lista.insert
+SE INDICE>LEN(lista):
+-insere como ultimo elemento
 
-
-
+lista.insert(99,x)
+[0...90] sendo x o ultimo elemento
+'''
+listaX=[]
+for i in range (0,5):
+    n=input('digite  um string')
+    listaX.insert(0,n)
+    print(listaX)
