@@ -104,8 +104,37 @@ SE INDICE>LEN(lista):
 lista.insert(99,x)
 [0...90] sendo x o ultimo elemento
 '''
+'''
 listaX=[]
 for i in range (0,5):
     n=input('digite  um string')
     listaX.insert(0,n)
     print(listaX)
+'''
+'''
+del()
+remove o elemento de uma lista
+lista=[1,2,3,4,5,6]
+del(dias[4],dias[5]) tira um de cada vez alterando a quantidade do indice
+
+'''
+
+'''
+list(string)
+a=list('aula de ipe')
+['a','u','l','a','']
+len(string)=len(lista)
+'''
+
+print('Tirando os espaço')
+texto= input('Digite uma frase : ')
+a=list(texto)
+b=[]
+for i in range (len(a)):
+    if a[i]!='':
+        b.append(a[i])
+a=b
+print(b)
+'''
+list.clear(): apaga todos os elementos da lista
+'''
